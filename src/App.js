@@ -1,28 +1,29 @@
 import React, { Component } from 'react';
-import PersonCard from './Components/PersonCard';
+//import PersonCard from './Components/PersonCard';
+import AnotherPersonCard from './Components/AnotherPersonCard';
 
 function App() {
   return (
     <div className="App">
-      <PersonCard
+      <AnotherPersonCard
         firstName = "Jane"
         lastName = "Doe"
         age = {45}
         hairColor = "Black"
       />
-      <PersonCard
+      <AnotherPersonCard
         firstName = "John"
         lastName = "Smith"
         age = {88}
         hairColor = "Brown"
       />
-      <PersonCard
+      <AnotherPersonCard
         firstName = "Millard"
         lastName = "Fillmore"
         age = {50}
         hairColor = "Brown"
       />
-      <PersonCard
+      <AnotherPersonCard
         firstName = "Maria"
         lastName = "Smith"
         age = {62}
